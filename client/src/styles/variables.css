@@ -1,0 +1,85 @@
+:root {
+  /* Core Palette — Deep Navy, Charcoal, Crisp White, Electric Blue/Violet */
+  --color-navy-950: #090e1a;
+  --color-navy-900: #0f172a;
+  --color-navy-800: #1e293b;
+  --color-navy-700: #334155;
+
+  --color-bg: #f8fafc;
+  --color-surface: #ffffff;
+  --color-surface-subtle: #f1f5f9;
+  --color-border: #e2e8f0;
+  --color-border-strong: #cbd5e1;
+  --color-border-dark: rgba(148, 163, 184, 0.22);
+
+  --color-text-primary: #0f172a;
+  --color-text-secondary: #475569;
+  --color-text-muted: #64748b;
+  --color-text-inverse: #f8fafc;
+  --color-text-inverse-muted: #cbd5e1;
+
+  /* Brand Accents */
+  --color-accent: #2563eb;
+  --color-accent-hover: #1d4ed8;
+  --color-violet: #6d28d9;
+  --color-violet-bright: #7c3aed;
+  --color-accent-soft: #eff6ff;
+  --color-violet-soft: #f5f3ff;
+  --color-accent-ring: rgba(37, 99, 235, 0.22);
+  --gradient-brand: linear-gradient(135deg, #2563eb 0%, #6d28d9 100%);
+  --gradient-hero: linear-gradient(135deg, #090e1a 0%, #111827 55%, #17153b 100%);
+
+  /* Semantic Colors */
+  --color-success: #15803d;
+  --color-success-bg: #f0fdf4;
+  --color-success-border: #bbf7d0;
+  --color-warning: #b45309;
+  --color-warning-bg: #fffbeb;
+  --color-warning-border: #fde68a;
+  --color-error: #b91c1c;
+  --color-error-hover: #991b1b;
+  --color-error-bg: #fef2f2;
+  --color-error-border: #fecaca;
+
+  /* Typography */
+  --font-display: 'Plus Jakarta Sans', 'Inter', system-ui, -apple-system, sans-serif;
+  --font-sans: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --text-xs: 0.78rem;
+  --text-sm: 0.875rem;
+  --text-base: 0.965rem;
+  --text-lg: 1.125rem;
+  --text-xl: 1.35rem;
+  --text-2xl: 1.75rem;
+  --text-3xl: 2.35rem;
+
+  /* Spacing Scale */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-10: 40px;
+  --space-12: 48px;
+  --space-16: 64px;
+
+  /* Border Radius */
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+  --radius-xl: 18px;
+  --radius-pill: 999px;
+
+  /* Elevation & Shadows */
+  --shadow-xs: 0 1px 2px rgba(15, 23, 42, 0.05);
+  --shadow-sm: 0 4px 12px rgba(15, 23, 42, 0.05);
+  --shadow-card: 0 10px 28px rgba(15, 23, 42, 0.06);
+  --shadow-card-hover: 0 16px 34px rgba(15, 23, 42, 0.11);
+
+  /* Layout & Transitions */
+  --container-max: 1200px;
+  --container-narrow: 920px;
+  --transition-fast: 150ms ease;
+  --transition-base: 220ms ease;
+}
